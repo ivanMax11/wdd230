@@ -114,3 +114,17 @@ footer {
   height: 8rem;
   background-color: #23A427;
 }
+
+@media only screen and (max-width: 768px){
+	nav a {
+		font-size: 1.3rem;
+	}
+
+  .logo {
+  width: 10rem;
+  }  
+
+  .colors {
+    display: block;
+  }
+}

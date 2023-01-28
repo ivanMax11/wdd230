@@ -13,7 +13,7 @@ Fonts are separated by a | */
   --heading-font: "Orbitron";
   --paragraph-font: font-family: 'Orbitron', sans-serif;
 
-  
+
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #E28710;  /* headlines on a white background */ 
   --headline-color-on-color: #E28710; /* headlines on a colored background */ 
@@ -77,4 +77,14 @@ footer {
   margin-top: 20rem;
   height: 8rem;
   background-color: #23A427;
+}
+
+@media only screen and (max-width: 768px){
+	nav a {
+		font-size: 1.3rem;
+	}
+
+  .logo {
+  width: 10rem;
+  }  
 }
