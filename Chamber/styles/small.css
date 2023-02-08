@@ -1,0 +1,302 @@
+
+
+/* Font Changes */
+h1, h2, h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+}
+
+/* Header */
+
+body {
+    background-color: #23A427;
+    max-width: 100%;
+    margin: auto;
+    padding: 2vw;
+}
+
+header {
+    background-color: #396E94;
+    color: #E28710;
+    margin-bottom: 30px;
+    border: 1px solid #E28710;
+}
+
+#header-flexbox {
+    display: flex;
+}
+
+#headerLogo{
+    height: auto;
+    width: 15%;
+    padding:2vw;
+}
+
+#headerLogo img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: large;
+}
+
+#headerTextInfo {
+    color: #23A427;
+    width:50%;
+}
+
+.social-image {
+    height: auto;
+    width: 40px;
+}
+
+#social-logo-box {
+    width: fit-content;
+    display: flex;
+}
+
+header nav{
+    display: flex;
+    flex: 1;
+}
+
+#primaryNav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#head-date-holder {
+    width: 80%;
+    margin: auto;
+    font-size: 1.5em;
+    border-top: 1px solid #E28710;
+    text-align: center;
+}
+
+/* Navigation Menu */
+#menu-nav {
+    margin: auto;
+    width: 50%;
+    display: none;
+}
+
+#menu-nav a {
+    
+    text-decoration: none;
+    color: #E28710;
+    font-size: 1.5rem;
+}
+
+#menu-nav a:hover {
+    color:#E24110
+}
+
+
+/* Hamburger Menu */
+
+#burgerBox {
+    flex:1;
+    text-align: right;
+}
+
+
+#primaryNav{
+    display: none;
+    background-color: #E24110;
+    color:#CDCFDF;
+    text-align: left;
+}
+
+#hamburgerBtn {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #E24110;
+}
+
+#burgerBox.open {
+    background-color: #E24110;
+}
+
+#primaryNav.open {
+    display: block;
+}
+
+#primaryNav li a{
+    display: block;
+    padding: .8rem 2vw;
+    color:yellow;
+    text-decoration: none;
+   
+}
+
+#primaryNav li.active a {
+    background-color:  yellow;
+    color: #396E94;
+}
+
+#primaryNav li a:hover {
+    background-color: #23A427;
+}
+
+
+#hamburgerBtn span:nth-child(1) {display:block;}
+#hamburgerBtn span:nth-child(2) {display:none;}
+
+#hamburgerBtn.open span:nth-child(1) {display:none;}
+#hamburgerBtn.open span:nth-child(2) {display:block; color:#CDCFDF;}
+
+
+
+/* Main */
+main div {
+    background-color: #E24110;
+    text-align: center;
+}
+
+main h2 {
+    color:#23A427;
+    text-shadow:1px 1px 5px black;
+    padding: 10px;
+}
+
+main p {
+    font-size: large;
+    text-shadow:1px 1px 2px #282A3E;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+
+/*Hero Section*/
+
+#hero {
+    position: relative;
+    padding: 0px;
+    background-color: #E24110;
+    box-shadow: 0px 0px 10px #282A3E;
+    margin: 0px;
+}
+
+
+#hero h2 {
+    color: #23A427;
+    text-shadow: 1px 1px 3px #282A3E;
+    position: absolute;
+    top: 5px;
+    margin-top: 5px;
+    left: 10px;
+}
+
+
+#hero p {
+    margin-top: 100px;
+}
+
+/*Event Section*/
+
+#events {
+    box-shadow: 0px 0px 10px #282A3E;
+}
+
+
+/*Weather Section*/
+
+#weather {
+    box-shadow: 0px 0px 10px #282A3E;
+}
+
+
+
+/*News*/
+#news {
+    box-shadow: 0px 0px 10px #282A3E;
+}
+
+
+/*Spotlight */
+#spotlights {
+    height: fit-content;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px #282A3E;
+}
+
+#spotlights div {
+    width: 90%;
+    margin: 10px auto;
+    box-shadow: 0px 0px 15px #282A3E;
+
+}
+
+
+#spotlights hr {
+    width: 70%;
+}
+
+
+#spotlight3 {
+    display: none;
+}
+
+
+/*Join Section */
+#join {
+    display: none;
+    padding: 25px;
+    box-shadow: 0px 0px 10px #282A3E;
+}
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #396E94;
+    border: 1px solid #E28710;
+}
+
+footer a, p{
+    margin: auto;
+    text-decoration: none;
+    color: #E28710;
+}
+
+#footerLogo img {
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    color: #23A427;
+    
+}
+
+#base-footer {
+    border-top: 1px solid #E28710;
+}
+
+#base-footer h3{
+    font-size: medium;
+}
+
+#base-footer p {
+    font-size: small;
+}
+
+#medium-footer {
+    display: none;
+}
+
+#large-footer {
+    display: none;
+}
