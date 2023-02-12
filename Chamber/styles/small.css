@@ -12,17 +12,17 @@ p {
 /* Header */
 
 body {
-    background-color: #23A427;
+    background-color: #E28710;
     max-width: 100%;
     margin: auto;
     padding: 2vw;
 }
 
 header {
-    background-color: #396E94;
-    color: #E28710;
+    background-color: #23A427;
+    color: lightgray;
     margin-bottom: 30px;
-    border: 1px solid #E28710;
+    border: 1px solid #396E94;
 }
 
 #header-flexbox {
@@ -45,7 +45,7 @@ h1 {
 }
 
 #headerTextInfo {
-    color: #23A427;
+    color: #396E94;
     width:50%;
 }
 
@@ -74,7 +74,7 @@ header nav{
     width: 80%;
     margin: auto;
     font-size: 1.5em;
-    border-top: 1px solid #E28710;
+    border-top: 1px solid #396E94;
     text-align: center;
 }
 
@@ -88,7 +88,7 @@ header nav{
 #menu-nav a {
     
     text-decoration: none;
-    color: #E28710;
+    color: lightgray;
     font-size: 1.5rem;
 }
 
@@ -131,14 +131,13 @@ header nav{
 #primaryNav li a{
     display: block;
     padding: .8rem 2vw;
-    color:yellow;
+    color:lightgray;
     text-decoration: none;
    
 }
 
 #primaryNav li.active a {
-    background-color:  yellow;
-    color: #396E94;
+    background-color:  #396E94;
 }
 
 #primaryNav li a:hover {
@@ -156,7 +155,7 @@ header nav{
 
 /* Main */
 main div {
-    background-color: #E24110;
+    background-color: #396E94;
     text-align: center;
 }
 
@@ -173,6 +172,19 @@ main p {
     padding-bottom: 0px;
 }
 
+/*Banner Section*/
+
+#banner {
+    background-color: #23A427;
+    border-radius: 10px;
+    display: none;
+}
+
+#banner h2 {
+    color: #396E94;
+    text-shadow: 1px 1px 2px black;
+    font-size: medium;
+}
 
 /*Hero Section*/
 
@@ -194,6 +206,30 @@ main p {
     left: 10px;
 }
 
+#hero img{
+    width:100%;
+    height: 100%;
+}
+
+#hero a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #E28710;
+    opacity: 0.95;
+    padding:15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #396E94;
+    font-size: x-large;
+}
+
+#hero a:hover {
+    background-color: #23A427;
+    text-shadow: 1px 1px 1px #282A3E;
+}
+
+
 
 #hero p {
     margin-top: 100px;
@@ -205,6 +241,24 @@ main p {
     box-shadow: 0px 0px 10px #282A3E;
 }
 
+#events img {
+    width: 125px;
+    height: 125px;
+}
+
+#events a {
+    text-decoration: none;
+    color:#E28710;
+    font-size: large;
+}
+
+#events h3 {
+    color: #E28710;
+}
+
+#events p {
+    color: lightgray;
+}
 
 /*Weather Section*/
 
@@ -212,20 +266,65 @@ main p {
     box-shadow: 0px 0px 10px #282A3E;
 }
 
+#weather-box-ph {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    
 
+}
+
+#weather-box-ph img {
+    width: 20%;
+    height:auto;
+}
+
+#weather-degrees {
+    color: lightgray;
+}
+
+#weather-box-ph p {
+    font-size: xx-large;
+    padding: 0px;
+}
+
+
+#weather-info-ph {
+    padding-bottom: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+#weather-info-ph hr {
+    width: 100%;
+}
+
+#weather-info-ph p {
+    color: lightgray;
+    text-align: left;
+    padding: 0;
+}
+
+#weather-info-ph div {
+    display: flex;
+    justify-content: space-between;
+}
 
 /*News*/
 #news {
     box-shadow: 0px 0px 10px #282A3E;
 }
 
+#news p {
+    color: lightgrey;
+}
 
 /*Spotlight */
 #spotlights {
     height: fit-content;
     padding: 10px;
     margin-bottom: 15px;
-    box-shadow: 0px 0px 10px #282A3E;
+    box-shadow: 0px 0px 10px #E28710;
 }
 
 #spotlights div {
@@ -235,6 +334,32 @@ main p {
 
 }
 
+#spotlights img {
+    width: 150px;
+    height: 150px;
+}
+
+#spotlights h3 {
+    font-size: medium;
+}
+
+#spotlights hr {
+    width: 70%;
+}
+
+#spotlights p {
+    color: lightgray;
+    margin: 3px;
+    padding: 1px;
+}
+
+#spotlights a {
+    display: block;
+    margin: 10px;
+    padding: 1px;
+    color: #E28710;
+    text-decoration: none;
+}
 
 #spotlights hr {
     width: 70%;
@@ -253,6 +378,26 @@ main p {
     box-shadow: 0px 0px 10px #282A3E;
 }
 
+#join a {
+    margin-top: 100px;
+    background-color: #E28710;
+    color: #396E94;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+}
+
+#join a:hover{
+    background-color: #23A427;
+    text-shadow: 1px 1px 1px #282A3E;
+}
+
+#join p {
+    color: lightgray;
+    font-size: larger;
+}
 
 
 /* Footer */
@@ -261,14 +406,14 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #396E94;
-    border: 1px solid #E28710;
+    background-color: #23A427;
+    border: 1px solid #396E94;
 }
 
 footer a, p{
     margin: auto;
     text-decoration: none;
-    color: #E28710;
+    color: lightgray;
 }
 
 #footerLogo img {
@@ -277,12 +422,12 @@ footer a, p{
 }
 
 h3 {
-    color: #23A427;
+    color: #396E94;
     
 }
 
 #base-footer {
-    border-top: 1px solid #E28710;
+    border-top: 1px solid #396E94;
 }
 
 #base-footer h3{

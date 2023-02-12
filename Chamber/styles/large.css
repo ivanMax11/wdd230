@@ -32,7 +32,12 @@
         margin: 5px;
     }
 
-   
+     /*Banner*/
+     #banner
+     {
+         grid-column: 1/4;
+         grid-row: 1/2;
+     }
 
     /* Hero*/
     #hero {
@@ -74,7 +79,9 @@
         justify-content: center;
     }
 
-   
+    #join a {
+        width: 80%
+    }
 
     /*News*/
     #news {
