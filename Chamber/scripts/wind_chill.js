@@ -8,7 +8,7 @@ function calculateWindChill()
         windChill = (35.74 + (0.6215*degrees)-(35.75*(windSpeed**0.16)) + (0.4275*degrees*(windSpeed**0.16))).toFixed(1)
     }
     
-    document.querySelector("#windChill").innerHTML = `${windChill} &#176;F`;
+    document.querySelector("#windChill").innerHTML = `${windChill} &#176;C`;
 }
 
 
