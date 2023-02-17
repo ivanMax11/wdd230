@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+    
     <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/wind_chill.js" defer></script>
 </head>
 
 <body>
@@ -57,7 +59,12 @@
             <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
         </div>
         <div id="hero">
-            <img src="images/img.jpg" alt="">
+            <img id="heroImg" src="images/wdd230-org1280.jpg" alt="Hero Image" srcset="images/wdd230-org400.jpg 400w,
+            images/wdd230-org650.jpg 650w,
+            images/wdd230-org1280.jpg 1280w" sizes="(max-width: 400px) 650px,
+                    (min-width: 650px) 1022px,
+                    (min-width: 1280px) 1400px">
+
             <h2>Welcome to Education Land</h2>
             <a href="#">Join the Chamber</a>
 
@@ -68,13 +75,13 @@
             <p>Register and get ready to bring us your project of success from April 20th to September between 8:00am -
                 1:00pm for the annual marathon.</p>
             <a href="#">more info...</a>
-
         </div>
+
         <div id="weather">
             <h2>Weather</h2>
             <div id="weather-box-ph">
                 <img src="images/weather.png" alt="Weather Icon">
-                <p id="weather-degrees">39&#176;C</p>
+                <p id="weather-degrees"><span id="weatherDegrees">21</span>&#176;C</p>
             </div>
             <div id="weather-info-ph">
 
@@ -82,17 +89,19 @@
                 <hr>
                 <div>
                     <p>Wind Speed:</p>
-                    <p>5 km/h</p>
+                    <p><span id="windSpeed">23</span> km/h</p>
                 </div>
                 <div>
                     <p>Wind Chill:</p>
-                    <p>Caution</p>
+                    <p id="windChill"></p>
                 </div>
                 <div>
                     <p>Humidity:</p>
-                    <p>47%</p>
+                    <p>93%</p>
                 </div>
             </div>
+        </div>
+
 
         </div>
         </div>
