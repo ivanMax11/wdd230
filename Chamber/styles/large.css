@@ -108,6 +108,46 @@
         height: auto;
     }
 
+     /* Discover Page */
+     #discover-head-ban {
+        grid-column: 1/4;
+    }
+
+    picture img:hover {
+        filter: blur(4px);
+        transition: filter 0.3s;
+    }
+    
+    #past-div {
+        grid-column: 1/4;
+    }
+
+    #stadium-div {
+        grid-column: 1/4;
+    }
+
+    #forum-div {
+        grid-column: 1/4;
+    }
+
+    #museum-div {
+        grid-column: 1/4;
+    }
+
+    #autodrome-div {
+        grid-column: 1/4;
+    }
+
+    #city-div {
+        grid-column: 1/4;
+    }
+
+    main div ul li {
+        list-style-type: none;
+        font-size: 19px;
+    }
+
+
     /* Footer */
     
     #footer-info-box2 {
@@ -125,4 +165,6 @@
     #large-footer p {
         font-size: medium;
     }
+    
+    
 }

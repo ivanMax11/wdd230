@@ -70,3 +70,55 @@ for (i = 0; i < copyyears.length; i++) {
 function minTwoDigits(n) {
     return (n < 10 ? '0' : '') + n;
 }
+
+//Storage
+
+const visitDays = document.querySelector("#daysVisit");
+const lastVisit = Date.parse(window.localStorage.getItem("last-visit"));
+const todayDate = now.getDate();
+let daySinceLastVisit = 0
+if (!lastVisit == NaN)
+{
+    daySinceLastVisit = math.ceil((lastVisit.getTime() - todayDate.getTime())/ (1000*3600*24))
+}
+
+localStorage.setItem("last-visit", todayDate);
+visitDays.textContent = `${daySinceLastVisit} `;
+
+// Lazy Loading
+
+console.log("Starting")
+
+const imagesToLoad = document.querySelectorAll("img[data-src]");
+
+const imgOptions = {
+    threshold: 0,
+    rootMargin: "0px 0px 50px 0px"
+};
+
+const loadImages = (image) => {
+    image.setAttribute("src", image.getAttribute("data-src"));
+    image.onload = () => {image.removeAttribute("data-src");};
+};
+
+if("IntersectionObserver" in window) {
+    console.log("In")
+    const imgObserver = new IntersectionObserver((items, observer) => {
+        items.forEach((item) => {
+            if (item.isIntersecting) {
+                loadImages(item.target);
+                observer.unobserve(item.target);
+            }
+        });
+    }, imgOptions);
+
+
+    imagesToLoad.forEach((img) => {
+        imgObserver.observe(img);
+    });
+} else {
+    console.log("Failed")
+    imagesToLoad.forEach((item) => {
+        loadImages(item);
+    });
+}
