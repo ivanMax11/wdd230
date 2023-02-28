@@ -1,50 +1,51 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family:'Times New Roman', Times, serif;
-    background-color: lightblue
-  }
-  
-  table {
-    border-collapse: collapse;
-    border: 1px solid rgba(255, 255, 255, 0.585);
-    margin-top: 10vh;
-    text-align: center;
-  }
-  
-  td {
-    border: 1px solid rgba(255, 255, 255, 0.585);
-    padding: 7px 20px;
-  }
-  
-  tbody {
-    background-color: white;
-  }
-  
-  tbody tr td:nth-child(1) {
-    font-weight: bold;
-  }
-  
-  tbody tr:nth-child(2) {
-    background-color: lightblue;
-  }
-  
-  th {
-    padding: 10px 20px;
-  }
-  
-  thead tr:nth-child(1) {
-    background-color: gray;
-    color: white;
-  }
-  
-  thead tr:nth-child(2) {
+table {
+    margin: 10px auto;
+    border: thin solid rgb(201, 201, 201);
+	border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+	color: black;
+	font-size: .85rem;
+}
+
+thead {
+	color: white;
+}
+
+thead tr:nth-child(1) {
     background-color: black;
-    color: white;
-  }
-  
-  thead tr:nth-child(2) th:nth-child(1) {
-    background-color: lightgray;
-  }
+}
+
+thead tr:nth-child(2)
+{
+    background-color: rgb(61, 61, 61);
+}
+
+thead tr > th:empty
+{
+    background-color: black;
+}
+
+th, td {
+	padding: 7px 15px;
+}
+
+td {
+    border-left: 1px solid rgb(201, 201, 201);
+}
+
+th {
+	background-color: var(--back2);
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgb(235, 235, 235);
+}
