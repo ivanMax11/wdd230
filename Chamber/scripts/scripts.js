@@ -85,6 +85,8 @@ if (!lastVisit == NaN)
 localStorage.setItem("last-visit", todayDate);
 visitDays.textContent = `${daySinceLastVisit} `;
 
+
+
 // Lazy Loading
 
 console.log("Starting")
