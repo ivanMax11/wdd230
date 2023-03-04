@@ -447,6 +447,108 @@ picture img {
     transition: filter 0.5s;
 }
 
+/*Join Page*/
+
+form fieldset {
+    margin:2rem 0;
+    border: 1px solid #E24110;
+    background-color: #396E94;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: white;
+    margin: 0 auto;
+    font-size: larger;;
+    padding: 0 .10rem;
+}
+
+form label.top {
+    display: block;
+    padding-top: 1.70rem;
+    color: black;
+    font-size: 1,5rem;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1.3rem;
+    border: solid 1px #E24110;
+    border-radius: 8px;
+    padding: .60rem;
+    color: black;
+    width: 100%;
+    max-width: 25rem;
+    background-color: gray;
+}
+
+::placeholder {
+    color: lightgray;
+}
+
+
+form label.sbs {
+    font-size: 1.1rem;
+    display: block;
+    padding: .75rem 0;
+    color: lightgray;
+}
+
+form label.sbs:hover {
+    color: black;
+}
+
+form textarea {
+    border: #E24110 1px solid;
+    width: 90%;
+    font-size: x-large;
+    color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: gray;
+    max-width: 40rem;
+    margin: 1rem 0;
+}
+
+
+
+form input.submitBtn {
+    font-size: large;
+    border: #E24110 solid 1px;
+    background-color: #E24110;
+    color: lightgray;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form input.submitBtn:hover {
+    background-color: #396E94;
+    color: lightgray;
+}
+
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+
+form label.top input:required:valid
+{
+    border-left: greenyellow solid 6px;
+}
+
+.hidden {
+    display: none;
+}
+
+.thanks {
+    width: 50rem;
+}
+
+
 /* Footer */
 
 footer {
