@@ -62,6 +62,7 @@
     }
 
     .grid-container {
+        height: 27rem;
         display: grid;
         grid-template-columns: 60% 39%;
         gap: 25px; 
@@ -71,7 +72,7 @@
         border: 1px solid #00ccff;
         padding: 0px;
         color: black;
-        font-size: 18px;
+        font-size: 21px;
         font-family: 'Orbitron', sans-serif;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
@@ -89,7 +90,7 @@
     footer {
         font-family: 'Orbitron', sans-serif;
         background: linear-gradient(to right, #00ccff, #00ff62);
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .flag-icon {
