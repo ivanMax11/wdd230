@@ -1,5 +1,5 @@
 
-const lastModifiedElement = document.getElementById('lastModifiedTime');
+const lastModifiedElement = document.getElementById('lastModified');
 const lastModified = document.lastModified;
 
 lastModifiedElement.textContent = lastModified;
