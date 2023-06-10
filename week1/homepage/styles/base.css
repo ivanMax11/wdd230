@@ -64,6 +64,7 @@
     }
 
     .grid-container {
+        height: 25.5rem;
         grid-template-columns: 1fr;
         gap: 20px;
     }
@@ -82,7 +83,7 @@
         padding: 10px;
        }
     
-       .section-header h3 {
+    .section-header h3 {
         margin: 0;
         width: 100%;
        }
@@ -91,14 +92,9 @@
         font-family: 'Orbitron', sans-serif;
         background: linear-gradient(to right, #00ccff, #00ff62);
         font-size: 20px;
+        text-align: center;
+        height: 7rem;
     }
 
-    .flag-icon {
-        display: inline-block;
-        width: 20px;
-        height: 15px;
-        background-image: url(/homepage/images/flag-argentina.jpg);
-        background-size: cover;
-    }
 }
 
