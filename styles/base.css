@@ -1,0 +1,101 @@
+@media  (max-width: 640px) {
+    
+    header {
+        background: linear-gradient(to right, #00ccff, #00ff62);
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+    }
+    
+    h1 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+    img {
+        width: 100px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    hr {
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    body {
+        background-color: lightgray;
+    }
+
+    nav {
+        background-color: black;
+        margin: 0 auto;  
+    }
+    
+    nav ul li {
+        display: block;
+        list-style-type: none;
+        font-family: 'Orbitron', sans-serif;
+    }
+    
+    ul {
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        padding-inline-start: 0px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+        color: #00ccff;
+    }
+    
+    nav a:hover {
+        border: 1px solid #00ccff;
+    }
+    
+    h2 {
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .grid-container {
+        height: 25.5rem;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        border: 1px solid #00ccff;
+        padding: 0px;
+        color: black;
+        font-size: 20px;
+        font-family: 'Orbitron', sans-serif;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .section-header {
+        background: linear-gradient(to right, #00ccff, #00ff62);
+        padding: 10px;
+       }
+    
+    .section-header h3 {
+        margin: 0;
+        width: 100%;
+       }
+    
+    footer {
+        font-family: 'Orbitron', sans-serif;
+        background: linear-gradient(to right, #00ccff, #00ff62);
+        font-size: 20px;
+        text-align: center;
+        height: 7rem;
+    }
+
+    
+}
+
