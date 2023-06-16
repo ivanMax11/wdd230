@@ -1,0 +1,41 @@
+.logo {
+    width: 15rem;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  td {
+    padding: 20px;
+    background-color: #fdca40;
+  }
+  
+  h1, h2, h3 {
+   font-size: 2em;
+    text-align: center;
+  }
+  
+  p {
+   
+    text-align: center;
+  }
+
+  ul {
+  
+    list-style-type: disc;
+  }
+  
+ .about {
+    font-size: 1.2em;
+ }
+
+ .target {
+    font-size: 1.2em;
+ }
+
+ .scenario {
+    font-size: 1.2em;
+ }

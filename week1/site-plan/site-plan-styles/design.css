@@ -1,0 +1,178 @@
+.logo {
+    width: 15rem;
+}
+
+
+div{
+    display: block;
+}
+
+#color-table {
+    grid-column: 3;
+    grid-row: 2;
+    margin-top: 40px;
+}
+
+* {
+    
+    box-sizing: border-box;
+}
+
+table {
+    width: 700px;
+    
+    padding: 5px;
+    border: 1px solid;
+    text-align: center;
+    display: table;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.primary {
+    background-color: #3772ff;
+    color: #e6e8e6;
+}
+
+.site-header {
+    background-color: #3772ff;
+    color: #e6e8e6;
+}
+
+.navigation {
+    background-color: #df2935;
+    color: #e6e8e6;
+}
+
+table, th, td {
+    
+    padding: 5px;
+    border: 1px solid;
+    text-align: center;
+    margin-left: 30%;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.secondary {
+    background-color: #df2935;
+    color: #e6e8e6;
+}
+
+.accent-1{
+    background-color:  #e6e8e6;
+    color: #080708;
+}
+
+.accent-2 {
+    background-color: #fdca40;
+    color: #080708;
+}
+
+#typo-grid {
+    grid-column: 3;
+    grid-row: 3;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #080708;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#h3-color-pallet {
+    text-align: center;
+}
+
+.pallet-url{
+    text-align: center;
+}
+
+#sample-1 {
+    font-size: 40px;
+    background-color: #3772ff;
+    color: white;
+}
+
+#sample-2 {
+    font-size: 30px;
+    background-color:  #df2935;
+    color: white;
+}
+
+#sample-3 {
+    font-size: 20px;
+    background-color:  #df2935;
+    color: white;
+}
+
+#sample-4 {
+    background-color: #fdca40;
+    color: white;
+}
+
+#sample-5{
+    background-color: #080708;
+    color: white;
+}
+
+#sample-6 {
+    background-color: #080708;
+    color:white;
+}
+
+#sample-7 {
+    background-color: #e6e8e6;
+    color: #080708;
+}
+
+.footer-nav {
+    background-color: #df2935;
+    color: white;
+}
+
+.secondary-h1-color {
+    background-color: #fdca40;
+    color:white;
+}
+
+.secondary-h2-color {
+    background-color: #080708;
+    color: white;
+}
+
+.secondary-heading-color {
+    background-color: #080708;
+    color: white;
+
+}
+
+.secondary-paragraph-color {
+    background-color: #e6e8e6;
+    color: #080708;
+}
+
+
