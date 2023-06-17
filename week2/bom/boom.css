@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    width: 25%;
+    margin-left: 37%;
+
+}
+
+ul {
+    border: solid 2px rgb(236, 176, 97);
+}
+
+.list-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.list-item button {
+    margin-left: auto;
+}
