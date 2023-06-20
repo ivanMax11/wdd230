@@ -3,7 +3,6 @@ const button = document.querySelector('button');
 const list = document.querySelector('#list');
 
 button.addEventListener('click', addChapter);
-
 function addChapter() {
     const chapter = input.value;
 
