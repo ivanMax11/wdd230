@@ -24,6 +24,7 @@ function addChapter() {
         list.appendChild(li);
         input.value = '';
         input.focus();
+  
     }
 }
 
