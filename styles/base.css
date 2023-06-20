@@ -16,6 +16,71 @@
         font-weight: bold;
     }
 
+    header {
+        position: relative;
+    }
+
+    #mode-toggle-btn {
+        background-color: #302d2d;
+        color: #00ccff;
+    }
+
+    .menu-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 999;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu.active {
+        display: block;
+    }
+
+    .menu-btn__line {
+        width: 35px;
+        height: 1px;
+        background-color: #0a0a0a;
+        position: relative;
+        margin-bottom: 5px;
+        transform-origin: center;
+        transition: transform 0.3s ease;
+    }
+
+    .menu-btn__line:nth-child(1),
+    .menu-btn__line:nth-child(3) {
+        width: 100%;
+    }
+
+    .menu.active .menu-btn__line:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+    }
+
+    .menu.active .menu-btn__line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu.active .menu-btn__line:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+    }
+
+    .menu-btn.active .menu-btn__line:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+    }
+
+    .menu-btn.active .menu-btn__line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-btn.active .menu-btn__line:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+    }
+
+
     img {
         width: 100px;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -28,6 +93,28 @@
     body {
         background-color: lightgray;
     }
+
+    .dark-mode {
+        background-color: #302d2d;
+        color: #fff;
+    }
+
+    .dark-mode .card {
+        color: white;
+    }
+
+    .dark-mode .card2 {
+        color: white;
+    }
+
+    .dark-mode .name, h3 {
+        color: #302d2d;
+    }
+
+    .dark-mode footer {
+        color: #302d2d;
+    }
+
 
     nav {
         background-color: black;
@@ -88,12 +175,18 @@
         width: 100%;
     }
 
+    .dark-mode a {
+        color: #00ccff;
+    }
+
     footer {
+        margin-top: 140px;
         font-family: 'Orbitron', sans-serif;
         background: linear-gradient(to right, #00ccff, #00ff62);
         font-size: 20px;
         text-align: center;
         height: 7rem;
+        padding: 10px;
     }
 
 

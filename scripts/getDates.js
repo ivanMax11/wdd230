@@ -1,4 +1,4 @@
-
+// To get DOM element
 const lastModifiedElement = document.getElementById('lastModified');
 const yearElement = document.getElementById('year');
 
@@ -10,5 +10,22 @@ const currentYear = new Date().getFullYear();
 
 // Update the content of elements
 lastModifiedElement.textContent = `Last modified: ${lastModified}`;
-yearElement.textContent = currentYear;
+
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu');
+
+menuBtn.addEventListener('click', () => {
+  console.log("click");
+  menu.classList.toggle('active');
+  menuBtn.classList.toggle('active');
+});
+
+const modeToggleBtn = document.getElementById('mode-toggle-btn');
+modeToggleBtn.addEventListener('click', toggleMode);
+
+function toggleMode() {
+  const body = document.body;
+  body.classList.toggle('dark-mode');
+}
+
 
