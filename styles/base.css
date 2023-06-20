@@ -1,11 +1,11 @@
-@media  (max-width: 640px) {
-    
+@media (max-width: 640px) {
+
     header {
         background: linear-gradient(to right, #00ccff, #00ff62);
         display: block;
         font-family: 'Orbitron', sans-serif;
     }
-    
+
     h1 {
         display: block;
         font-size: 2em;
@@ -20,7 +20,7 @@
         width: 100px;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
-    
+
     hr {
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
@@ -31,15 +31,15 @@
 
     nav {
         background-color: black;
-        margin: 0 auto;  
+        margin: 0 auto;
     }
-    
+
     nav ul li {
         display: block;
         list-style-type: none;
         font-family: 'Orbitron', sans-serif;
     }
-    
+
     ul {
         margin-block-start: 0px;
         margin-block-end: 0px;
@@ -54,11 +54,11 @@
         text-decoration: none;
         color: #00ccff;
     }
-    
+
     nav a:hover {
         border: 1px solid #00ccff;
     }
-    
+
     h2 {
         font-family: 'Orbitron', sans-serif;
     }
@@ -81,13 +81,13 @@
     .section-header {
         background: linear-gradient(to right, #00ccff, #00ff62);
         padding: 10px;
-       }
-    
+    }
+
     .section-header h3 {
         margin: 0;
         width: 100%;
-       }
-    
+    }
+
     footer {
         font-family: 'Orbitron', sans-serif;
         background: linear-gradient(to right, #00ccff, #00ff62);
@@ -96,6 +96,5 @@
         height: 7rem;
     }
 
-    
-}
 
+}

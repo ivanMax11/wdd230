@@ -1,4 +1,4 @@
-// To get DOM element
+
 const lastModifiedElement = document.getElementById('lastModified');
 const yearElement = document.getElementById('year');
 
