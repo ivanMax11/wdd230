@@ -1,0 +1,106 @@
+@media (max-width: 640px) {
+
+    header {
+        display: flex;
+        background-color: #3772ff;
+        display: grid;
+        grid-template-columns: 15% 30% 15% 40%;
+        border: 1px solid #e6e8e6;
+    }
+
+    .name {
+        font-size: 1.5em;
+    }
+
+    .subname {
+        font-size: 1.3em;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo {
+        margin-left: -35px;
+        display: block;
+        width: 8rem;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    header {
+        position: relative;
+    }
+
+    nav a {
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+        
+        color: #fdca40;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    nav a:hover {
+        border: 1px solid #fdca40;
+    }
+    
+
+    .menu-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 999;
+        cursor: pointer;
+    }
+
+    .navigation-header {
+        display: none;
+    }
+
+    .navigation-header.active {
+        display: block;
+    }
+
+    .menu-btn__line {
+        width: 35px;
+        height: 1px;
+        background-color: #fdca40;
+        position: relative;
+        margin-bottom: 5px;
+        transform-origin: center;
+        transition: transform 0.3s ease;
+    }
+
+    .menu-btn__line:nth-child(1),
+    .menu-btn__line:nth-child(3) {
+        width: 100%;
+    }
+
+    .navigation-header.active .menu-btn__line:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+    }
+
+    .navigation-header.active .menu-btn__line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .navigation-header.active .menu-btn__line:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+    }
+
+    .menu-btn.active .menu-btn__line:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+    }
+
+    .menu-btn.active .menu-btn__line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-btn.active .menu-btn__line:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+    }
+}
