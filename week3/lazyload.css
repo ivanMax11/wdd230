@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+main {
+    margin: 0 auto;
+    width: 400px;
+    height: auto; /* Change height to auto to fit content */
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    background-color: black;
+    animation: fade 10s;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+@keyframes fade {
+    8% {
+        opacity: 0;
+    }
+
+    100% {
+      opacity: 1; 
+    }
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px; /* Add a top margin to separate the footer from the main content */
+    background-color: aliceblue;
+    padding: 10px;
+}
