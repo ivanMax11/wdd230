@@ -11,6 +11,7 @@ const currentYear = new Date().getFullYear();
 // Update the content of elements
 lastModifiedElement.textContent = `Last modified: ${lastModified}`;
 
+// Menu hamburger
 const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
 
