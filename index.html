@@ -19,11 +19,14 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allan&display=swap" rel="stylesheet">
 </head>
 
 <body class="dark-mode">
     <header>
-        <img src="images/yo-soy-one1.png" alt="">
+        <img src="yo-soy-one1.webp" alt="">
         <h1 class="name">Ivan M. Monte</h1>
         <!-- Add menu btn -->
         <div class="menu-btn">
@@ -44,39 +47,61 @@
     </nav>
     <h2>WDD 230: Web frontend Development</h2>
     <hr>
-    <main class="grid-container">
-        <section class="card">
-            <div class="section-header">
-                <h3>Learning Activities</h3>
+    <main>
+        <div id="temple-hero">
+            <picture>
+                <source srcset="buenos-aires-arg-small.webp" media="(max-width: 650px)">
+                <img src="buenos-aires-arg-larger.webp" alt="Hero Buenos Aires Temple" width="960" height="600">
+            </picture>
+            <div class="herolabel">
+                <p>Buenos Aires Temple <br>
+                    Argentina</p>
             </div>
-            <ul>
-                <li>Week 01: <a href="https://ivanmax11.github.io/wdd230/week1/holygrail.html">Layout</a> | <a
-                        href="https://ivanmax11.github.io/wdd230/week1/media-query/media-query.html">Media Query</a> |
-                    <a href="https://ivanmax11.github.io/wdd230/week1/site-plan/chamber-site-plan.html">Chamber Site
-                        Plan</a>
-                </li>
-                <li>Week 02: <a href="https://ivanmax11.github.io/wdd230/week2/design.html">Web Design Principle</a> |
-                    <a href="https://ivanmax11.github.io/wdd230/week2/bom/bom.html">DOM Manipulation</a>
-                </li>
-                <li>Week 03: <a href="https://ivanmax11.github.io/wdd230/week3/images/landscape.webp.webp">Webp image
-                        file format</a> | <a href="https://ivanmax11.github.io/wdd230/week3/lazyload.html">Lazy Loading</a></li>
-                <li><a href=""></a>Week 04</li>
-                <li><a href=""></a>Week 05</li>
-                <li><a href=""></a>Week 06</li>
-                <li><a href=""></a>Week 07</li>
-            </ul>
-        </section>
-        <section class="card">
-            <div class="section-header">
-                <h3>Information</h3>
-            </div>
-            <ul class="">
-                <li><a href=""></a>Wather</li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-        </section>
+        </div>
+
+        <div class="grid-container">
+            <section class="card">
+                <div class="section-header">
+                    <h3>Learning Activities</h3>
+                </div>
+                <ul>
+                    <li>Week 01: <a href="https://ivanmax11.github.io/wdd230/week1/holygrail.html">Layout</a> | <a
+                            href="https://ivanmax11.github.io/wdd230/week1/media-query/media-query.html">Media Query</a>
+                        |
+                        <a href="https://ivanmax11.github.io/wdd230/week1/site-plan/chamber-site-plan.html">Chamber Site
+                            Plan</a>
+                    </li>
+                    <li>Week 02: <a href="https://ivanmax11.github.io/wdd230/week2/design.html">Web Design Principle</a>
+                        |
+                        <a href="https://ivanmax11.github.io/wdd230/week2/bom/bom.html">DOM Manipulation</a>
+                    </li>
+                    <li>Week 03: <a href="https://ivanmax11.github.io/wdd230/week3/images/landscape.webp.webp">Webp
+                            image
+                            file format</a> | <a href="https://ivanmax11.github.io/wdd230/week3/lazyload.html">Lazy
+                            Loading</a></li>
+                    <li><a href=""></a>Week 04</li>
+                    <li><a href=""></a>Week 05</li>
+                    <li><a href=""></a>Week 06</li>
+                    <li><a href=""></a>Week 07</li>
+                </ul>
+            </section>
+            <section class="card">
+                <div class="section-header">
+                    <h3>Information</h3>
+                </div>
+                <p>Weather</p>
+                <br>
+                <p><span class="label">Visit Count: </span><span class="visits"></span></p>
+            </section>
     </main>
+    </div>
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14120.773906387169!2d-64.27798545!3d-27.7730121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1687617179384!5m2!1ses-419!2sar"
+            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
+    </div>
+
     <footer>
         <p>&copy;2023 | Ivan Maximiliano Monte | Argentina</p>
         <p id="lastModified">Last modification: <span id="lastModifiedTime"></span></p>

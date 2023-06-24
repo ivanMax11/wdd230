@@ -10,7 +10,7 @@
         border: 1px solid rgba(0, 0, 0, 0.1);
         font-family: 'Orbitron', sans-serif;
     }
-    
+
     h1 {
         margin-left: 10px;
     }
@@ -19,13 +19,13 @@
         width: 150px;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
-    
+
     hr {
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     #mode-toggle-btn {
-        
+
         background-color: #302d2d;
         color: #00ccff;
     }
@@ -43,7 +43,8 @@
         color: white;
     }
 
-    .dark-mode .name, h3 {
+    .dark-mode .name,
+    h3 {
         color: #302d2d;
     }
 
@@ -57,23 +58,23 @@
 
     nav {
         background-color: black;
-        margin: 0 auto;  
+        margin: 0 auto;
     }
-    
+
     nav ul {
         display: flex;
         justify-content: space-evenly;
         list-style-type: none;
         font-family: 'Orbitron', sans-serif;
     }
-    
+
     ul {
         margin-block-start: 0px;
         margin-block-end: 0px;
         padding-inline-start: 0px;
         list-style-type: none;
         font-family: 'Orbitron', sans-serif;
-    
+
     }
 
     nav a {
@@ -83,13 +84,47 @@
         text-decoration: none;
         color: #00ccff;
     }
-    
+
     nav a:hover {
         border: 1px solid #00ccff;
     }
-    
+
     h2 {
         font-family: 'Orbitron', sans-serif;
+    }
+
+    #temple-hero img {
+        width: 100%;
+        /* Set a fixed width for the image on large screens */
+        height: auto;
+        /* Allows height to adjust proportionally to width on large screens */
+        max-width: none;
+        /* Remove max width set on small screens */
+        margin-bottom: 10px
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');
+
+
+    .herolabel {
+        position: absolute;
+        top: 40%;
+        left: 30px;
+        background: radial-gradient(#fff, #97904d);
+        border: 1px solid rgba(0, 0, 0, .75);
+        padding: 2.5rem;
+        box-shadow: 0 0 3rem #fff;
+        color: black;
+        opacity: 0.75;
+       
+    }
+
+    .herolabel p {
+        margin: 0;
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 2.5rem;
+        font-family: 'Allan', cursive;
     }
 
     .grid-container {
@@ -97,7 +132,7 @@
         height: 25.5rem;
         display: grid;
         grid-template-columns: 60% 39%;
-        gap: 15px; 
+        gap: 15px;
     }
 
     .card {
@@ -107,17 +142,32 @@
         font-size: 21px;
         font-family: 'Orbitron', sans-serif;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        margin-bottom: 20px;
     }
 
-   .section-header {
-    background: linear-gradient(to right, #00ccff, #00ff62);
-    padding: 10px;
-   }
+    .section-header {
+        background: linear-gradient(to right, #00ccff, #00ff62);
+        padding: 10px;
+    }
 
-   .section-header h3 {
-    margin: 0;
-    width: 100%;
-   }
+    .section-header h3 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .map-container {
+        position: relative;
+        width: 100%;
+        height: 600px; /* Ajusta este valor según tus necesidades */
+    }
+    
+    .map-container iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
 
     footer {
         margin-top: 70px;
