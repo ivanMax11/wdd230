@@ -155,10 +155,7 @@
         height: auto; /* Allows height to be adjusted proportionally to width */
         max-width: 100%; /* Sets a maximum width equal to the width of the container */
     }
-
-    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
-   
+       
     .herolabel {
         position: absolute;
         top: 28%;
