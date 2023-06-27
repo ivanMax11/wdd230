@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    width: 25%;
+    margin-left: 37%;
+}
+
+ul {
+    border: solid 3px rgb(236, 176, 97);
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-item li {
+    margin-right: 10px; /* Ajusta la distancia deseada en píxeles */
+}
+
+.list-item button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
