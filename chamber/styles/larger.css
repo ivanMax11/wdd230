@@ -201,7 +201,7 @@ footer {
 
 .sidebar {
     display: grid;
-    grid-template-rows: repeat(6, 1fr);
+   
     background-color: #fdca40;
     padding: 10px;
 }
