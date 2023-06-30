@@ -55,3 +55,19 @@ if (lastVisitDate) {
 // Guardar la fecha de visita actual en localStorage
 localStorage.setItem('lastVisitDate', currentDate);
 
+
+
+// Esperar a que el contenido del formulario esté completamente cargado
+document.addEventListener("DOMContentLoaded", function() {
+  // Seleccionar el elemento span por su id
+  var forumDateTimeElement = document.getElementById("forumDateTime");
+
+  // Obtener la fecha y hora actual
+  var currentDateTime = new Date();
+
+  // Formatear la fecha y hora como desees
+  var formattedDateTime = currentDateTime.toLocaleString();
+
+  // Actualizar el contenido del elemento span con la fecha y hora formateadas
+  forumDateTimeElement.textContent = formattedDateTime;
+});
