@@ -56,6 +56,67 @@
         color: #00ccff;
     }
 
+    .dark-mode form fieldset {
+        margin: 2rem 0;
+        border: 1px solid #00ccff;
+        border-radius: 10px;
+        padding: .5rem 2%;
+    }
+
+
+    .dark-mode form legend {
+        color: #00ff62;
+        margin: 0 1rem;
+        padding: 0 .5rem;
+    }
+
+    .dark-mode form label.top, form div {
+        display: block;
+        padding-top: 1rem;
+        color: white;
+        font-size: 1rem;
+    }
+
+    
+    .dark-mode form label.top input,
+    form label.top select {
+        -webkit-appearance: none;
+        display: block;
+        font-size: 1rem;
+        border: solid 1px #00ff62;
+        border-radius: 4px;
+        padding: .75rem;
+        color: black;
+        width: 100%;
+        max-width: 20rem;
+        background-color: lightgray;
+    }
+
+    .dark-mode form label.sbs {
+        padding: .4rem 0;
+        color: white;
+    }
+
+    .dark-mode form input.submitBtn {
+        border: none;
+        background-color: #00ccff;
+        color: white;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width: 96%;
+        max-width: 20rem;
+    }
+
+    .dark-mode form label.top input:required {
+        border-left: red solid 6px
+    }
+
+    .dark-mode form label.top input:required:valid {
+        border-left: green solid 6px;
+    }
+
+
     nav {
         background-color: black;
         margin: 0 auto;
@@ -113,7 +174,7 @@
         box-shadow: 0 0 3rem #fff;
         color: black;
         opacity: 0.75;
-       
+
     }
 
     .herolabel p {
@@ -155,17 +216,18 @@
     .map-container {
         position: relative;
         width: 100%;
-        height: 600px; /* Ajusta este valor según tus necesidades */
-        
+        height: 600px;
+        /* Ajusta este valor según tus necesidades */
+
     }
-    
+
     .map-container iframe {
         position: absolute;
         width: 100%;
         height: 100%;
         top: 0;
         left: 0;
-        
+
     }
 
     footer {

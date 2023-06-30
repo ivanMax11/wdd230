@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Maximiliano Monte - WDD 230 - Web Frontend Development</title>
+    <!-- Social media meta -->
+    <meta property="og:title" content="Home page - WDD 230 - Web Fronted Developer">
+    <meta property="og:description" content="Course assignments portal - BYU IDAHO">
+    <meta property="og:image" content="https://photos.google.com/photo/AF1QipPdrXDWEA7t56yF15gagfe1f40bB0q0Qf1LBZ3R">
+    <meta property="og:url" content="https://ivanmax11.github.io/wdd230/">
+    <meta property="og:type" content="website">
+    <meta name="description"
+        content="WDD 230 - Frontend Development - Ivan Maximiliano Monte - Course assignment portal">
+    <meta name="author" content="Ivan Maximiliano Monte">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allan&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-mode">
+    <header>
+        <img src="yo-soy-one1.webp" alt="">
+        <h1 class="name">Ivan M. Monte</h1>
+        <!-- Add menu btn -->
+        <div class="menu-btn">
+            <div class="menu-btn__line"></div>
+            <div class="menu-btn__line"></div>
+            <div class="menu-btn__line"></div>
+        </div>
+        <button id="mode-toggle-btn">Change mode</button>
+    </header>
+    <nav class="navbar">
+        <!-- Add the class "menu" on menu container -->
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="https://ivanmax11.github.io/wdd230/chamber/index.html">Chamber</a></li>
+            <li><a href="">Site Plan</a></li>
+            <li><a href="">Form</a></li>
+        </ul>
+    </nav>
+    <h2>WDD 230: Web frontend Development</h2>
+    <hr>
+    <main>
+        <h1>Course Proposal Application</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Applicant information</legend>
+                <label class="top">First Name <input type="text" name="fname" required></label>
+                <label class="top">Last Name <input type="text" name="lname" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="123551234"></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">website <input type="url" name="url" placeholder="http://"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Course Information</legend>
+                <div>Audience</div>
+                <label class="sbs"><input type="radio" name="audience" value="beginner">Beginner</label>
+                <label class="sbs"><input type="radio" name="audience" value="intermediate">Intermediate</label>
+                <label class="sbs"><input type="radio" name="audience" value="advanced">Advanced</label>
+
+                <div>Software Needed</div>
+                <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
+                <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
+                <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</label>
+                <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Funding</legend>
+                    <label class="top">Anticipated Completion Date <input type="date" name="completeDate"></label>
+                    <label class="top">Course Subject
+                        <select name="Subject">
+                            <option value="">Please Select &#9662;</option>
+                        <option value="software">Software Development</option>
+                        <option value="creative">Creative Professional</option>
+                        <option value="info">Information Technology</option>
+                        <option value="data">Data Professional</option>
+                        <option value="construction">Construction</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="business">Business Professional</option>
+                        <option value="security">Cyber Security</option>
+                        </select>
+                    </label>
+
+                    <label class="top">How Many Authora <input type="number" name="authora"></label>
+
+            </fieldset>
+
+            <input type="submit" value="Proppose My Course" class="submitBtn">
+        </form> 
+    </main>
+    <footer>
+        <p>&copy;2023 | Ivan Maximiliano Monte | Argentina</p>
+        <p id="lastModified">Last modification: <span id="lastModifiedTime"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+
+</html>
