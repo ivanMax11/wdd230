@@ -49,38 +49,13 @@
     <h2>WDD 230: Web frontend Development</h2>
     <hr>
     <main>
-        <form action="record.html" method="get">
-            <fieldset>
-                <legend>Applicant Information</legend>
-                <div>
-                    <label for="username">Username*:</label>
-                    <input type="text" id="username" name="username" required>
-                </div>
-                <div>
-                    <label for="password">Password*:</label>
-                    <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="the password contains at least 8 alphanumeric characters.">
-                </div>
-                <div>
-                    <label for="confirmPassword">Confirm Password*:</label>
-                    <input type="password" id="confirmPassword" name="confirmPassword" required>
-                </div>
-                <div>
-                    <label for="email">Email*:</label>
-                    <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
-                        title="Please enter a valid email address" placeholder="someone@byui.edu">
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Page Rating*</legend>
-                <div>
-                    <label for="pageRating">Page Rating:</label>
-                    <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1">
-                    <span id="pageRatingValue"></span>
-                </div>
-            </fieldset>
-            <button type="submit">Get my Account</button>
-        </form>
-
+        <div class="record">
+            <h2>Thank You!</h2>
+            <p>
+                Your form has been submitted and right now it's being reviewed!. We will reach out to you via email once
+                we've looked over the details.
+            </p>
+        </div>
     </main>
     <footer>
         <p>&copy;2023 | Ivan Maximiliano Monte | Argentina</p>

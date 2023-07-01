@@ -65,7 +65,7 @@
 
 
     .dark-mode form legend {
-        color: #00ff62;
+        color: black;
         margin: 0 1rem;
         padding: 0 .5rem;
     }
@@ -97,25 +97,7 @@
         color: white;
     }
 
-    .dark-mode form input.submitBtn {
-        border: none;
-        background-color: #00ccff;
-        color: white;
-        border-radius: 1rem;
-        padding: .75rem 1.5rem;
-        margin: 0 0 2rem 2%;
-        width: 96%;
-        max-width: 20rem;
-    }
-
-    .dark-mode form label.top input:required {
-        border-left: red solid 6px
-    }
-
-    .dark-mode form label.top input:required:valid {
-        border-left: green solid 6px;
-    }
-
+   
 
     nav {
         background-color: black;
