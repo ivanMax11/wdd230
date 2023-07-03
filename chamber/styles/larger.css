@@ -251,7 +251,7 @@ p {
     grid-column: 1;
     grid-row: 4;
     background-color: #e6e8e6;
-    color: #3772ff;
+    color: black;
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -261,7 +261,7 @@ p {
     grid-column: 1;
     grid-row: 5;
     background-color: #e6e8e6;
-    color: #df2935;
+    color: black;
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -306,6 +306,9 @@ figure {
 }
 
 /*Join Section */
+
+
+
 form fieldset{
     background-color: #fdca40;
     width: 70%;

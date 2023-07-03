@@ -22,52 +22,52 @@ menuBtn.addEventListener('click', () => {
 
 
 
-// Obtener el elemento del sidebar
+// To get the Sidebar element
 
 var sidebar = document.getElementById('sidebar-box6');
 
-// Obtener la fecha actual
+// To get the current Date
 var currentDate = new Date();
 
-// Obtener la última fecha de visita almacenada en localStorage
+// To get the last visit in localStorage
 var lastVisitDate = localStorage.getItem('lastVisitDate');
 
 if (lastVisitDate) {
-  // Calcular la diferencia de tiempo entre la última visita y la fecha actual
+  // Calculate the difference of time between the last visit and  current Date
   var timeDiff = currentDate.getTime() - new Date(lastVisitDate).getTime();
 
-  // Convertir la diferencia de tiempo a días
+  //  Convert the difference of  time in days 
   var daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
 
   if (daysDiff === 0) {
-    // Mostrar mensaje si la última visita fue hoy
+    // Show the message if the last visit was today 
     sidebar.innerHTML = ' 📅 Back so soon! Awesome!  🚀';
   } else {
-    // Mostrar mensaje con la cantidad de días desde la última visita
+    //  Show the message with the ammount of days from the last visit 
     var message = (daysDiff === 1) ? 'day' : 'days';
     sidebar.innerHTML = 'You last visited ' + daysDiff + ' ' + message + ' ago. 😊';
   }
 } else {
-  // Mostrar mensaje si es la primera visita del usuario
+  //  Show the message if it´s the first visit of user  
   sidebar.innerHTML = ' 📅 Welcome! Let us know if you have any questions. 🎉';
 }
 
-// Guardar la fecha de visita actual en localStorage
+// Save the Date of current visit in localStorage   
 localStorage.setItem('lastVisitDate', currentDate);
 
 
 
-// Esperar a que el contenido del formulario esté completamente cargado
+// To wait that the form content it´s completly charged
 document.addEventListener("DOMContentLoaded", function() {
-  // Seleccionar el elemento span por su id
+  //  Select the span elemment for your id Seleccionar el elemento span por su id
   var forumDateTimeElement = document.getElementById("forumDateTime");
 
-  // Obtener la fecha y hora actual
+  // To get the current Date and hour 
   var currentDateTime = new Date();
 
-  // Formatear la fecha y hora como desees
+  // To format the Date and hour how you wish  
   var formattedDateTime = currentDateTime.toLocaleString();
 
-  // Actualizar el contenido del elemento span con la fecha y hora formateadas
+  // Actualize the elemment of span content with the formated Date and hour 
   forumDateTimeElement.textContent = formattedDateTime;
 });

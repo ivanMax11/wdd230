@@ -209,7 +209,7 @@
         height: 300px;
     }
 
-    /* Design Styles */
+    /* Design Styles - Discover */
 
     .grid-container {
         display: block;
@@ -251,7 +251,7 @@
         grid-column: 1;
         grid-row: 4;
         background-color: #e6e8e6;
-        color: #3772ff;
+        color: black;
         padding: 10px;
         margin-bottom: 10px;
     }
@@ -261,7 +261,7 @@
         grid-column: 1;
         grid-row: 5;
         background-color: #e6e8e6;
-        color: #df2935;
+        color: black;
         padding: 10px;
         margin-bottom: 10px;
     }
