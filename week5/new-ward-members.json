@@ -1,0 +1,45 @@
+{
+    "familyName" : "family Smith",
+    "movedDate" : "11/07/1993",
+    "membersNumber" : "7",
+    "bishopricVisited" : "yes",
+    "familyMembers" : [
+        {
+            "name" : "Joseph",
+            "gender" : "Male",
+            "birthdate" : "12/23/1993"
+            
+        },
+        {
+            "name" : "Albert",
+            "gender" : "Male",
+            "birthdate" : "02/06/1984"
+        },
+        {
+            "name" : "Mart",
+            "genrer" : "Male",
+            "birthdate" : "10/20/1985"
+        },
+        {
+            "name" : "Nala",
+            "gender" : "Female",
+            "birthdate" : "09/19/1990"
+        },
+        {
+            "name" : "Silvin",
+            "gender" : "Female",
+            "birthdate" : "1986"
+        },
+        {
+            "name" : "Henry",
+            "gender" : "Male", 
+            "birthdate" : "09/20/1955"
+        },
+        {
+            "name" : "Elin",
+            "gender" : "Female",
+            "birthdate" : "1964"
+        }
+    ]
+
+}
