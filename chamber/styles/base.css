@@ -271,6 +271,7 @@
         grid-column: 1;
         grid-row: 6;
         background-color: #df2935;
+        color: white;
         padding: 10px;
         margin-bottom: 10px;
     }
