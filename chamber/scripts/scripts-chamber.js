@@ -71,3 +71,9 @@ document.addEventListener("DOMContentLoaded", function() {
   // Actualize the elemment of span content with the formated Date and hour 
   forumDateTimeElement.textContent = formattedDateTime;
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var hiddenFieldset = document.querySelector('.hidden');
+  hiddenFieldset.style.display = 'block';
+})

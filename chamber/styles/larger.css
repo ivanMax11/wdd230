@@ -368,6 +368,10 @@ form input.submitBtn {
     margin: 0 auto 10px;
 }
 
+.hidden {
+    display: none;
+}
+
 form label.top input:required {
     border-left: red solid 6px;
 }
