@@ -50,3 +50,7 @@ localStorage.setItem("numVisits-ls", numVisits);
 
 // A client can view the localStorage data using the Applications panel in the browsers's DevTools - check it out on any major site.
 
+// Function to actualize the text element value to change the input range 
+function updatePageRating(value) {
+  document.getElementById("pageRatingValue").textContent = value;
+}

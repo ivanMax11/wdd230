@@ -73,7 +73,7 @@
                 <legend>Page Rating*</legend>
                 <div>
                     <label for="pageRating">Page Rating:</label>
-                    <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1">
+                    <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" oninput="updatePageRating(this.value)">
                     <span id="pageRatingValue"></span>
                 </div>
             </fieldset>
