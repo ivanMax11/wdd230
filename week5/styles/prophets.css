@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(62, 142, 196);
+    color: #eee;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-shadow: 0 0 15px black;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+#card {
+    background-color: rgb(235, 229, 229);
+    color: black;
+}
+
+#card img {
+    width: 250px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 15px black;
+}
+
+@media only screen and (min-width: 950px) {
+    #cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    #cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+footer {
+    margin-top: 1rem;
+}
