@@ -54,3 +54,52 @@ localStorage.setItem("numVisits-ls", numVisits);
 function updatePageRating(value) {
   document.getElementById("pageRatingValue").textContent = value;
 }
+
+// To get the DOM element
+const weatherInfo = document.querySelector("#weather-info");
+const weatherIcon = document.querySelector("#weather-icon > img");
+
+//To get the weather information to Santiago del Estero
+const url = "https://api.openweathermap.org/data/2.5/weather";
+const apiKey = "9d5ff763720d66e31e963e147e74dc6b";
+const city = "Santiago del Estero";
+
+// Building the URL with the necessary parameters 
+const queryParams = new URLSearchParams({
+  q: city,
+  appid: apiKey,
+  units: "metric"
+});
+const weatherURL = `${url}?${queryParams}`;
+
+//To get the weather information utilizing OpenWeatherMapAPI
+async function getWeather() {
+  try {
+    const response = await fetch(weatherURL);
+
+    if (response.ok) {
+      const data = await response.json();
+      console.log(data);
+
+      //To get the icon code in the weather description
+      const iconCode = data.weather[0].icon;
+
+      //To build the image URL of code
+      const iconUrl = `https://openweathermap.org/img/wn/${iconCode}.png`;
+      weatherIcon.src = iconUrl;
+
+
+      //To show the weather information
+      const temperature = data.main.temp;
+      const description = data.weather[0].description;
+      weatherInfo.textContent = `Temperature in ${city}: ${temperature}°C, ${description} `;  
+    } else {
+      throw new Error(await response.text());
+    }
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+//Calling the function to get and showing the weather inforamtion 
+getWeather();
