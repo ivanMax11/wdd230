@@ -52,6 +52,12 @@ nav a:hover {
     border: 1px solid #df2935;
 }
 
+#banner {
+    text-align: center;
+    background-color: #df2935;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
 
 body {
     background-color: #e6e8e6;
@@ -84,6 +90,7 @@ body {
     grid-column: 1;
     width: auto;
     height: 600px;
+    display: flex;
 }
 
 .button {
@@ -107,7 +114,7 @@ body {
 }
 
 main div {
-    display: flex;
+   
     background-color: lightgray;
     height: auto;
     width: auto;
@@ -125,6 +132,10 @@ main div {
     width: auto;
     height: 300px;
 
+}
+
+.events a {
+    text-align: center;
 }
 
 .weather {
@@ -156,6 +167,15 @@ main div {
     grid-column: 3;
     width: auto;
     height: 300px;
+}
+
+.spotlight-1 img,
+.spotlight-2 img,
+.spotlight-3 img {
+    width: 20%;
+    height: auto;
+    max-width: 100%;
+    margin-left: 200px;
 }
 
 h1,
@@ -308,8 +328,6 @@ figure {
 
 /*Join Section */
 
-
-
 form fieldset{
     background-color: #fdca40;
     width: 70%;
@@ -389,4 +407,38 @@ form label.top input:required:valid {
     width: 50%;
     height: 200px;
     margin: 20px;
+}
+
+/*Directory Section*/
+
+#mainDirectory {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#mainDirectory button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+.grid-directory {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin-bottom: 1rem;
+}
+
+.grid-directory section {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #fdca40;
+    padding: 1rem;
+    background: #d9dbe0;
+    border-radius: 10px;
+}
+
+.grid-directory section img {
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
 }

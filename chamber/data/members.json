@@ -1,0 +1,113 @@
+{
+    "members": [
+        {
+            "name": "MAXIHOGAR",
+            "address": "Tucumán 157, 2º Piso, Santiago del Estero",
+            "phone": "(0385) 4212166",
+            "website": "https://www.maxihogar.com.ar",
+            "image": "images/maxihogar.webp",
+            "membershipLevel": "Gold",
+            "otherInfo": "contacto@maxihogar.com.ar"
+        },
+        {
+            "name": "Las Malvinas",
+            "address": "Tucuman 278, Santiago del Estero",
+            "phone": "+54 9 3856127352",
+            "website": "https://www.lasmalvinasweb.com.ar",
+            "image": "images/las-malvinas.webp",
+            "membershipLevel": "Gold",
+            "otherInfo": "contacto@lasmalvinasweb.com.ar"
+        },
+        {
+            "name": "Tecno Compro",
+            "address": "Tucuman 152, Santiago del Estero",
+            "phone": " 8103453666",
+            "website": "https://www.example.com",
+            "image": "images/tecnocompro.webp",
+            "membershipLevel": "Silver",
+            "otherInfo": "tucuman152@groupmobile.com.ar."
+        },
+        {
+            "name": "Pizzeria Popular",
+            "address": "Estrecho de Le Maire 25, Santiago del Estero",
+            "phone": "+54 3853102342",
+            "website": "https://pizzeriapopularrn.com",
+            "image": "images/popular.webp",
+            "membershipLevel": "Gold",
+            "otherInfo": "info@pizzeriapopular.com"
+        },
+        {
+            "name": "Mostaza",
+            "address": "Av Rivadavia 4200, El Portal Shopping, Santiago del Estero",
+            "phone": "+54 3854165200",
+            "website": "https://www.mostazaweb.com.ar",
+            "image": "images/mostaza.webp",
+            "membershipLevel": "Gold",
+            "otherInfo": "Lorem ipsum dolr sit amet."
+        },
+        {
+            "name": "SPORTING",
+            "address": "Tucuman 99, Santiago del Estero",
+            "phone": "+54(0385)-4211857",
+            "website": "https://www.sporting.com.ar",
+            "image": "images/sporting.webp",
+            "membershipLevel": "Gold",
+            "otherInfo": "Lorem ipsum dolr sit amet."
+        },
+        {
+            "name": "Credito Argentino",
+            "address": "Tucuman 208, Santiago del Estero",
+            "phone": "0810 666 0090",
+            "website": "https://www.creditoargentino.com.ar",
+            "image": "images/credito-argentino.webp",
+            "membershipLevel": "Bronze",
+            "otherInfo": "Lorem ipsum dolr sit amet."
+        },
+        {
+            "name": "Mc Center",
+            "address": "Absalon Rojas 70, Santiago del Estero",
+            "phone": "0810 666 0090",
+            "website": "https://www.creditoargentino.com.ar",
+            "image": "images/mccenter.webp",
+            "membershipLevel": "Bronze",
+            "otherInfo": "Lorem ipsum dolr sit amet."
+        },
+        {
+            "name": "McDonald´s",
+            "address": "Av Rivadavia 4200, local 1501 El Portal Shopping, Santiago del Estero",
+            "phone": "0810 666 0090",
+            "website": "https://www.mcdonalds.com.ar/",
+            "image": "images/mcdonalds.webp",
+            "membershipLevel": "Silver",
+            "otherInfo": "Lorem ipsum dolr sit amet."
+        },
+        {
+            "name": "Vea",
+            "address": "Av Rivadavia y Ejercito Argentino, Santiago del Estero",
+            "phone": "0810 666 0090",
+            "website": "https://www.vea.com.ar",
+            "image": "images/vea.webp",
+            "membershipLevel": "Gold",
+            "otherInfo": "Lorem ipsum dolr sit amet."
+        },
+        {
+            "name": "ChangoMas",
+            "address": "Av Belgrano Sur 2663, Santiago del Estero",
+            "phone": "0810 666 0090",
+            "website": "https://www.masonline.com.ar",
+            "image": "images/changomas.webp",
+            "membershipLevel": "Gold",
+            "otherInfo": "Lorem ipsum dolr sit amet."
+        },
+        {
+            "name": "Hiper Libertad",
+            "address": "Autopista Juan D. Peron, Santiago del Estero",
+            "phone": "0810 666 0090",
+            "website": "https://www.hiperlibertad.com.ar",
+            "image": "images/libertad.webp",
+            "membershipLevel": "Silver",
+            "otherInfo": "Lorem ipsum dolr sit amet."
+        }
+    ]
+
+}

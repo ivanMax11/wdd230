@@ -104,14 +104,6 @@
         transform: translateY(-6px) rotate(-45deg);
     }
 
-    main div {
-        display: flex;
-        background-color: lightgray;
-        height: auto;
-        width: auto;
-        margin: 5px;
-    }
-
     #hero-content {
         position: relative;
         display: flex;
@@ -147,7 +139,7 @@
         transform: translate(-10%, -30%);
         display: block;
         padding: 10px 20px;
-        height: 15px;
+        height: 35px;
         background-color: #df2935;
         color: #e6e8e6;
         text-decoration: none;
@@ -160,25 +152,37 @@
         background-color: #3772ff;
     }
 
+    main div {
+
+        background-color: lightgray;
+        height: auto;
+        width: auto;
+        margin: 5px;
+    }
+
     #events-weather {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+
     }
 
     .events {
         grid-column: 1;
-        grid-row: 1/3;
-        width: 100%;
-        height: 300px;
 
+        width: 100%;
+        height: 200px;
+
+    }
+
+    .events a {
+        text-align: center;
     }
 
     .weather {
         grid-column: 1;
-        grid-row: 2/2;
+
         width: 100%;
-        height: 300px;
+        height: 200px;
 
     }
 
@@ -207,6 +211,16 @@
         grid-row: 3/4;
         width: auto;
         height: 300px;
+    }
+
+
+    .spotlight-1 img,
+    .spotlight-2 img,
+    .spotlight-3 img {
+        width: 35%;
+        height: auto;
+        max-width: 100%;
+        margin-left: 170px;
     }
 
     /* Design Styles - Discover */
@@ -335,7 +349,7 @@
         margin: 0 0 2rem 2%;
         width: 96%;
         max-width: 20rem;
-        margin: 0 auto 10px ;
+        margin: 0 auto 10px;
     }
 
     form label.top input:required {
@@ -356,5 +370,31 @@
         height: 200px;
         margin: 20px;
     }
+
+    /*Directory Section*/
+
+    #menuDirectory {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    #menuDirectory button {
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        margin-bottom: 1rem;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
 
 }
