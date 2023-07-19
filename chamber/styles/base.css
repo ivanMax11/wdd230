@@ -372,21 +372,58 @@
     }
 
     /*Directory Section*/
-
-    #menuDirectory {
+    .menu-container {
         text-align: center;
         margin-top: 1rem;
     }
-
-    #menuDirectory button {
+    
+    .menu-container button {
         margin-top: 0.5rem;
         padding: 0.5rem;
     }
-
-    .grid {
+    
+    .grid-view {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         margin-bottom: 1rem;
+    }
+    
+    .grid-view section {
+        text-align: center;
+        margin: 1rem;
+        padding: 1rem;
+        border: 2px solid #fdca40;
+        padding: 1rem;
+        background: #d9dbe0;
+        border-radius: 10px;
+    }
+    
+    .grid-view section img {
+        width: 70%;
+        margin: 0 auto;
+        height: auto;
+    }
+    
+    .list-view {
+        display: inline;
+        margin-bottom: 1rem;
+    }
+    
+    .list-view section {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin: 1rem;
+        padding: 1rem;
+        border: 2px solid #fdca40;
+        padding: 1rem;
+        background: #d9dbe0;
+        border-radius: 10px;
+    }
+    
+    .list-view section img {
+        display: none;
     }
 
     * {
